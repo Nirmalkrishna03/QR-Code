@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(297, 45%, 44%);
+    }
+
+    .btitle {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    body {
+      background-color: hsl(212, 45%, 89%);
+    }
+
+    table,
+    th,
+    tr,
+    td {
+      margin-left: auto;
+      margin-right: auto;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 15px;
+      text-align: center;
+      padding: 10px;
+    }
+
+
+    .sub1 {
+      color: hsl(218, 44%, 22%);
+      font-family:"Outfit";
+      font-weight: 700;
+      font-size: larger;
+    }
+
+    .tex {
+      color:hsl(220, 15%, 55%);
+      font-family: "Outfit";
+      font-size: smaller;
+      font-weight: 400;
+    }
+
+    #qrcode {
+      width: 250px;
+      height: auto;
+
+      border-radius: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Heading of project -->
+  <div class="btitle">Improve your front-end skills by building projects
+
+    <br>
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  </div>
+  <br>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Nirmalkrishna03/QR-code-newbie.git" target="_blank">S.Nirmalkrishna</a>.
+  </div>
+  <br>
+
+
+  <table>
+    <!-- QR Code -->
+    <th>
+      <img id="qrcode" src="images\image-qr-code.png" alt="QR Code">
+    </th>
+    <!-- Bold text -->
+    <div >
+      <tr>
+
+        <td class="sub1"> Improve your front-end <br> skills by building projects </td>
+      </tr>
+    </div>
+
+    <!-- Light Text -->
+    
+      <tr>
+        <td class="tex">Scan the QR code to visit Frontend
+      
+        <br>
+        
+          Mentor and take your coding skills to
+        
+        <br>
+
+        
+          the next level
+        </td>
+        <br>
+      </tr>
+  </table>
+
+
+</body>
+
+</html>
